@@ -1,0 +1,34 @@
+.Container-All-Searchbar {
+    display: flex;
+    align-items: center;
+}
+
+.Container-All-InputsSearchbar {
+    display: flex;
+    justify-self: center;    
+    flex-wrap: wrap;
+}
+
+.Container-All-Searchbar input {
+    height: 25px;
+    width: 300px;
+}
+
+.Container-All-Searchbar button {
+    height: 31px;
+}
+
+.Container-All-Searchbar button:hover {
+    cursor: pointer;
+}
+
+.Container-All-Searchbar p {
+    font-size: 14px;
+    color: rgb(213, 65, 65);
+}
+
+@media screen and (max-width: 852px) {
+    .Container-All-InputsSearchbar {
+        margin-bottom: 25px;
+    }
+}

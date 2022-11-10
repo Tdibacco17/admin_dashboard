@@ -1,0 +1,31 @@
+.Container-AllCards-Dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Container-Card-Dashboard {
+    background-color: rgb(99, 91, 91);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.Container-Card-Dashboard h4 {
+    margin-right: 25px;
+    margin-left: 15px;
+    width: 350px;
+}
+
+.Container-Card-Dashboard button {
+    margin-right: 15px;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Container-Card-Dashboard button:hover {
+    cursor: pointer;
+}
+

@@ -1,0 +1,45 @@
+.container-All-Navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(60, 72, 117);
+    height: 75px;
+    width: 100%;
+}
+
+#espacioButtons {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container-All-Navbar button {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.container-All-Navbar button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 916px) {
+    .container-All-Navbar {
+        flex-wrap: wrap;
+    }
+    .container-All-Navbar button {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .container-All-Navbar {
+        height: 135px;
+    }
+}
+
+
+@media screen and (max-width: 916px) {
+    .container-All-Navbar {
+        height: 155px;
+    }    
+}

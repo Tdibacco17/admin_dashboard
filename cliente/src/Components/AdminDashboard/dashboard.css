@@ -1,0 +1,77 @@
+/*------------------*/
+.container-All-Searchbar-Filters {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 250px;
+    flex-wrap: wrap;
+}
+
+/* filters*/
+.Container-All-Filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Container-All-Filters select {
+    height: 31px;
+    width: 125px;
+    margin-left: 55px;
+}
+
+.Container-All-Filters select:hover {
+    cursor: pointer;
+}
+
+.Container-All-Filters button {
+    height: 31px;
+    margin-left: 15px;
+}
+
+.Container-All-Filters button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 852px) {
+    .container-All-Searchbar-Filters {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Container-Card-Dashboard {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .Container-Card-Dashboard {
+        justify-content: center;
+    }
+    .Container-Card-Dashboard h4 {
+        width: 250px;
+        align-items: center;
+    }
+    .Container-All-Searchbar {
+        flex-direction: column;
+    }
+    .Container-All-Searchbar input {
+        width: 225px;
+    }
+}
+@media screen and (max-width: 585px) {
+    .container-All-Searchbar-Filters {
+        height: 350px;
+    
+    }
+}
+

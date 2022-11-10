@@ -1,0 +1,47 @@
+.Container-All-Register {
+    display: flex;
+    justify-content: center;
+}
+
+.Container-Register {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 625px;
+}
+
+.Container-Register h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.Container-Register input {
+    height: 25px;
+    margin: 10px;
+}
+
+.Container-Button-Register {
+    display: flex;
+    justify-content: center;
+}
+
+.Container-Button-Register button {
+    margin-top: 15px;
+    height: 50px;
+    border: 15px;
+    width: 150px;
+    margin-right: 0px;
+    font-size: 18px;
+}
+
+.Container-Button-Register button:hover {
+    cursor: pointer;
+}
+
+.Container-Register p {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(213, 65, 65);
+}

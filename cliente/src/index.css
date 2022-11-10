@@ -1,0 +1,18 @@
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+
+body {
+  color: white;
+  background-color: #282c34;
+}
+
+#linkTo {
+  text-decoration: none;
+  color: rgb(88, 109, 193);
+  margin: 0px;
+  padding: 0px;
+}
+
+.Container-Redirect h2 {
+  display: flex;
+  justify-content: center;
+}
